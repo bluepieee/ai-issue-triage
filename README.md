@@ -40,7 +40,7 @@ The system extracts:
 
 Live Dashboard:
 
-https://https://ai-issue-triage-bhairavi.streamlit.app/
+https://ai-issue-triage-bhairavi.streamlit.app/
 
 ## ⚙️ How It Works
 
