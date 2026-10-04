@@ -1,0 +1,6 @@
+[
+    {
+        "issue": "The login button is not working for users using Google Chrome.",
+        "analysis": "1. **Short summary:** Users on Google Chrome are unable to log in because the login button is unresponsive.\n2. **Category:** Bug\n3. **Priority:** High (Authentication is a critical user flow, and Chrome represents the majority of web traffic).\n4. **Suggested action:** \n   - Ask the reporter for their Chrome version, OS, and any browser console/network error logs.\n   - Attempt to reproduce the issue in Chrome to inspect console errors, event listener behavior, or failed API calls.\n   - Deploy a fix for the underlying script/compatibility error and add cross-browser testing for the login flow."
+    }
+]
