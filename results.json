@@ -7,5 +7,10 @@
         "issue_number": 1,
         "issue": "Login button not working on Chrome\n\nUsers are unable to click the login button when using Google Chrome.\nPlease investigate and fix the problem.",
         "analysis": "1. **Short summary:** \nUsers are unable to click the login button on Google Chrome, preventing them from authenticating and accessing the application.\n\n2. **Category:** \nBug\n\n3. **Priority:** \nHigh (Login is a critical path, and Chrome represents a major portion of web traffic, meaning many users are completely blocked from using the platform.)\n\n4. **Suggested action:** \n* Reproduce the issue on Google Chrome and check DevTools (Console for JavaScript errors, Network tab for failed requests, and the Elements panel for overlapping elements or CSS issues like `pointer-events: none`).\n* Check event listener bindings on the login button.\n* Implement a fix, test across multiple browsers and Chrome versions, and release a hotfix."
+    },
+    {
+        "issue_number": 2,
+        "issue": "Add dark mode to dashboard\n\nIt would be useful to have a dark mode option for users who prefer a darker interface.",
+        "analysis": "1. **Summary:**  \n   Request to implement a dark mode theme toggle on the dashboard for users who prefer a darker color scheme.\n\n2. **Category:**  \n   Feature Request\n\n3. **Priority:**  \n   Low (Non-blocking visual enhancement/quality-of-life feature)\n\n4. **Suggested action:**  \n   * Label the issue as `enhancement` and `ui/ux`.\n   * Consult with the UI/UX team to create a dark mode color palette and design specs.\n   * Add the issue to the product backlog to be scheduled for frontend implementation (e.g., via CSS variables or a theme provider)."
     }
 ]
