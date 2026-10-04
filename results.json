@@ -2,5 +2,10 @@
     {
         "issue": "The login button is not working for users using Google Chrome.",
         "analysis": "1. **Short summary:** Users on Google Chrome are unable to log in because the login button is unresponsive.\n2. **Category:** Bug\n3. **Priority:** High (Authentication is a critical user flow, and Chrome represents the majority of web traffic).\n4. **Suggested action:** \n   - Ask the reporter for their Chrome version, OS, and any browser console/network error logs.\n   - Attempt to reproduce the issue in Chrome to inspect console errors, event listener behavior, or failed API calls.\n   - Deploy a fix for the underlying script/compatibility error and add cross-browser testing for the login flow."
+    },
+    {
+        "issue_number": 1,
+        "issue": "Login button not working on Chrome\n\nUsers are unable to click the login button when using Google Chrome.\nPlease investigate and fix the problem.",
+        "analysis": "1. **Short summary:** \nUsers are unable to click the login button on Google Chrome, preventing them from authenticating and accessing the application.\n\n2. **Category:** \nBug\n\n3. **Priority:** \nHigh (Login is a critical path, and Chrome represents a major portion of web traffic, meaning many users are completely blocked from using the platform.)\n\n4. **Suggested action:** \n* Reproduce the issue on Google Chrome and check DevTools (Console for JavaScript errors, Network tab for failed requests, and the Elements panel for overlapping elements or CSS issues like `pointer-events: none`).\n* Check event listener bindings on the login button.\n* Implement a fix, test across multiple browsers and Chrome versions, and release a hotfix."
     }
 ]
